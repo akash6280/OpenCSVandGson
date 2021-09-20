@@ -5,13 +5,10 @@ package com.bridgelabz.opencsvandgson;
 
 import org.junit.Test;
 
-import com.bridgelabz.opencsvandgson.Library;
-
 import static org.junit.Assert.*;
 
-public class LibraryTest {
+public class OpenCSVReaderTest {
     @Test public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+    	 OpenCSVReader classUnderTest = new OpenCSVReader();
     }
 }
